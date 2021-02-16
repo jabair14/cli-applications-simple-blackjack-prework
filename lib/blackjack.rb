@@ -63,7 +63,7 @@ end
 #####################################################
 
 def runner
-  puts welcome 
+  welcome 
   # code runner here
 end
     
