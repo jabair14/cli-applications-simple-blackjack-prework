@@ -4,7 +4,7 @@ def welcome
 end
 
 def deal_card 
-  new_card.rand(1..11)
+  new_card = new_card.rand(1..11)
     new_card > 0
   puts new_card
   # code #deal_card here
