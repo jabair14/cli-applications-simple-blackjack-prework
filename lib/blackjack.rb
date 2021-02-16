@@ -4,7 +4,8 @@ def welcome
 end
 
 def deal_card
-  card.new.
+  new_array = (1..11)
+  
   # code #deal_card here
 end
 
