@@ -64,7 +64,7 @@ end
 
 def runner
   welcome
-  deal_card
+  initial_round
   # code runner here
 end
     
