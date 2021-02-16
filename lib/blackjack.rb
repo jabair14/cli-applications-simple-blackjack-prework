@@ -3,12 +3,8 @@ def welcome
   puts "Welcome to the Blackjack Table"
 end
 
-def deal_card(array, n)
-    result = []
-  n.times do 
-    result << array[rand(array.length)]
-  end
-  result
+def deal_card
+
   # code #deal_card here
 end
 
