@@ -4,9 +4,11 @@ def welcome
 end
 
 def deal_card(array, n)
-  
-  
-  
+    result = []
+  n.times do 
+    result << array[rand(array.length)]
+  end
+  result
   # code #deal_card here
 end
 
