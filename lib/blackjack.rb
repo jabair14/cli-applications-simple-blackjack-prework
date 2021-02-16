@@ -37,6 +37,7 @@ end
 
 def invalid_command
   puts "Please enter a valid command"
+  invalid_command
   # code invalid_command here
 end
 
