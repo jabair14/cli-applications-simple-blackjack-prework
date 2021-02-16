@@ -5,7 +5,9 @@ end
 
 def deal_card 
  card_array = [1..11]
- card_array.sample
+ if card_array.sample > 0 do 
+   puts card_array
+ end
  
   # code #deal_card here
 end
