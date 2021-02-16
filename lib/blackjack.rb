@@ -29,6 +29,7 @@ end
 
 def initial_round
   2.times do deal_card
+end
   # code #initial_round here
 end
 
