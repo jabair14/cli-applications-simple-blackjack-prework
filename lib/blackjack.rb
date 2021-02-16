@@ -36,7 +36,7 @@ def initial_round
 end
 
 def hit? (current_card_total)
-  puts prompt_user
+  prompt_user
   # code hit? here
 end
 
