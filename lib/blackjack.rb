@@ -42,8 +42,6 @@ def hit? (current_card_total)
     current_card_total
   elsif input == "h"
     deal_card + current_card_total
-  else
-    puts "Type 'h' to hit or 's' to stay"
   end
 end
 
