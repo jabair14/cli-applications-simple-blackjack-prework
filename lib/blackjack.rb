@@ -50,8 +50,9 @@ def hit? (current_card_total)
     deal_card + current_card_total
   else
     invalid_command
+    prompt_user
   end
-  prompt_user
+  
 end
 
 
