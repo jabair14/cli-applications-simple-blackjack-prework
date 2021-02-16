@@ -4,9 +4,8 @@ def welcome
 end
 
 def deal_card 
-  new_card = new_card.rand(1..11)
-    new_card > 0
-  puts new_card
+ card_array = [1..11]
+ 
   # code #deal_card here
 end
 
