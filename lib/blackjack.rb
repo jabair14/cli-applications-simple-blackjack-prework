@@ -4,12 +4,6 @@ def welcome
 end
 
 def deal_card 
- card_array = [1..11]
- if card_array.sample > 0 
-   puts card_array
- end
- 
- 
   # code #deal_card here
 end
 
