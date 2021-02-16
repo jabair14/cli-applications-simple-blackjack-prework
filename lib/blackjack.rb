@@ -4,8 +4,10 @@ def welcome
 end
 
 def deal_card 
-  rand 1..11
- > 0
+  new_card.rand(1..11)
+    new_card > 0
+  end
+  new_card
   # code #deal_card here
 end
 
