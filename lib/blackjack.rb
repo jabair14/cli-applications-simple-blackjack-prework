@@ -4,7 +4,7 @@ def welcome
 end
 
 def deal_card 
- card_array = [1..11]
+ card_array = [0..11]
  card_array.sample > 0 
  card_array
   # code #deal_card here
