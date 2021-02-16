@@ -37,7 +37,7 @@ end
 
 def hit? (current_card_total)
   prompt_user
-  puts get_user_input(current_card_total)
+  get_user_input
   # code hit? here
 end
 
