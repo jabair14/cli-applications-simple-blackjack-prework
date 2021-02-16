@@ -63,7 +63,8 @@ end
 #####################################################
 
 def runner
-  welcome 
+  welcome
+  deal_card
   # code runner here
 end
     
